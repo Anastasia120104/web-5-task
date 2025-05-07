@@ -73,7 +73,7 @@ func dateHandler(w http.ResponseWriter, r *http.Request) {
 
 	response := map[string]string{
 		"date":  now.Format("02-01-2006"),
-		"login": "269018",
+		"login": "dorinasty1201",
 	}
 
 	w.Header().Set("Content-Type", "application/json")
